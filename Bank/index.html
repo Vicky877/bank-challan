@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onbeforeunload="load()">
+
+    <table name="refreshForm">
+        <tr>
+            <th>No of Notes:</th>
+            <th>Value </th>
+            <th>Amount:</th>
+        </tr>
+        <tr>
+            <td> <input type="text" id="a" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10">
+            </td>
+            <td>
+                <p>2000</p>
+            </td>
+            <td><input type="text" id="Twoth" size="10" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="b" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>
+                <p>500</p>
+            </td>
+            <td><input type="text" id="id-fiveh" size="10" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="c" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>200</td>
+            <td><input type="text" id="id-thu" size="10" value="0"></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="d" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>100</td>
+            <td><input type="text" id="id-hun" size="10" value="0"></td>
+        </tr>
+
+        <tr>
+            <td><input type="text" id="e" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>50</td>
+            <td><input type="text" id="id-fifty" size="10" value="0"><br></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="f" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>10</td>
+            <td><input type="text" id="id-ten" size="10" value="0"><br></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="g" min="0" max="50" onkeyup="Twoth()" onfocus="this.value=''" value="0" size="10"></td>
+            <td>5</td>
+            <td> <input type="text" id="id-five" size="10" value="0"><br></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Coins</td>
+            <td> <input type="text" id="coin" size="10" value="0" onkeyup="Twoth()" onfocus="this.value=''"><br></td>
+        </tr>
+        <tr>
+            <th id="ans">Total Note:</th>
+            <th id="ans"> </th>
+            <th id="ans">Total Amount:</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="total-notes" value="0" size="5"></td>
+            <td> </td>
+            <td><input type="text" id="totalamt" size="10"></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="newtab()">Click to know</button></td>
+        </tr>
+    </table>
+</body>
+<script src="calc.js "></script>
+
+</html>
